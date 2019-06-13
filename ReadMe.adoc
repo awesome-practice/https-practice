@@ -1,0 +1,19 @@
+= note
+
+password: 123456
+
+.info
+
+when use
+[source]
+keytool -genkey -alias tomcat -keyalg RSA
+
+then:
+[source]
+Warning:
+JKS 密钥库使用专用格式。建议使用 "keytool -importkeystore -srckeystore C:\Users\luobd\.keystore -destkeystore C:\Users\luobd\.keystore -deststoretype pkcs12" 迁移到行业标准格式 PKCS12。
+
+
+.curl about ssl
+
+https://curl.haxx.se/docs/sslcerts.html
